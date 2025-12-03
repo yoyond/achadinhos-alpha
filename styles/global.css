@@ -29,30 +29,36 @@ body {
 h1 {
     font-size: var(--text-xl);
     font-family: var(--font-titles);
+    font-weight: 100;
 }
 
 h2 {
     font-size: var(--text-lg);
     font-family: var(--font-titles);
+    font-weight: 100;
 }
 
 h3 {
     font-size: var(--text-md);
     font-family: var(--font-family);
+    font-weight: 400;
 }
 
 h4 {
     font-size: var(--text-sm);
     font-family: var(--font-titles);
+    font-weight: 100;
 }
 
 h5 {
     font-size: var(--text-xsm);
     font-family: var(--font-family);
+    font-weight: 400;
 }
 
 a {
     font-family: var(--font-family);
+    font-weight: 400;
 }
 
 .shape {
@@ -62,5 +68,6 @@ a {
     border-radius: 4.3rem;
     padding: 3rem;
     margin: 10rem auto;
-    border:#2c1f1b solid 0.2rem;
+    border: #2c1f1b solid 0.2rem;
 }
+

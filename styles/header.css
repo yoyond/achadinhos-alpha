@@ -1,0 +1,46 @@
+header img {
+border-radius: 100%;
+width: 19.7rem;
+height: 19.7rem;
+}
+
+.logo {
+    max-width: 19.7rem;
+    max-height: 19.7rem;
+    position: absolute;
+    top: 5rem; 
+    left: 17rem; 
+    
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    max-width: 26.6rem;
+    max-height: 13.3rem;
+    position: absolute;
+    left: 39rem;
+    text-align: left;
+}
+
+.title h4 {
+    width: 12.8;
+    height: fit-content;
+    line-height: 0.2; 
+    
+}
+
+.title h1 {
+ letter-spacing: 4px;
+  line-height: 6rem; 
+  padding-top: 0.2rem;
+}
+
+.title h3 {
+ font-size: 1.2rem;
+ width: 26.5rem;
+ height: fit-content;
+ line-height: 1.2rem;
+}
