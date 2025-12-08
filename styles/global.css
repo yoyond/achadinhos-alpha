@@ -5,6 +5,10 @@
 
 }
 
+html, body {
+  min-height: 100%;
+}
+
 :root {
     --text-color: #ffff;
     --surface-color: #211816;
