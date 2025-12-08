@@ -113,3 +113,23 @@ a {
 .copy-btn:active {
     transform: translateY(0);
 }
+
+
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+        height: auto;
+        background-image: url(/assets/background.png);
+        background-size: cover; 
+        background-position: center;
+    }
+
+    .shape {
+        width: 100%;
+        max-width: 380px;
+        min-height: 100vh;
+        height: auto;
+        margin: 2rem auto; 
+        padding: 1.5rem;
+    }
+}

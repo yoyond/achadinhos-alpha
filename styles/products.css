@@ -73,3 +73,43 @@
 .product-span:hover .caption {
     opacity: 1;
 }
+
+@media (max-width: 480px) {
+    .products {
+        width: 100%;
+        height: auto;
+        padding-top: 1.5rem;
+    }
+
+    .products h2, .products h5 {
+        width: 90%;
+        padding-left: 0;
+        text-align: center;
+        font-size: x-large;
+        padding-left: 1rem;
+    }
+
+    .products h5 {
+        font-size: medium;
+    }
+
+    .products h2 {
+         font-size: x-large;
+    }
+
+    .links {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding-left: 0;
+    }
+
+    .product-container {
+        width: 100%;
+        height: 15rem; 
+        border-radius: 20px;
+    }
+
+    .caption {
+        font-size: var(--text-xsm);
+    }
+}

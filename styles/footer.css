@@ -46,12 +46,29 @@ footer a {
     color:rgb(94, 86, 83);
 }
 
-@media (max-width: 768px) {
-    .logos-container {
-        gap: 1.3rem;
+@media (max-width: 480px) {
+    footer {
+        width: 100%;
+        height: auto;
+        padding-top: 2rem;
     }
-    .logo {
-        width: 80px;
-        height: 80px;
+
+    footer div {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .brands {
+        gap: 0.8rem;
+    }
+
+    footer img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    footer a {
+        padding-top: 1rem;
+        font-size: 16px;
     }
 }
