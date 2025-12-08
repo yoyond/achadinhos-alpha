@@ -8,20 +8,27 @@ height: 19.7rem;
     max-width: 19.7rem;
     max-height: 19.7rem;
     position: absolute;
-    top: 5rem; 
-    left: 17rem; 
+    top: -8rem; 
+    left: 3rem; 
     
 }
+
+.logo,
+.title {
+  position: absolute;
+}
+
 header {
-    display: flex;
-    flex-direction: row;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .title {
     max-width: 26.6rem;
     max-height: 13.3rem;
     position: absolute;
-    left: 39rem;
+    left: 24rem;
     text-align: left;
 }
 
@@ -87,3 +94,4 @@ header {
         line-height: 1.2rem;
     }
 }
+

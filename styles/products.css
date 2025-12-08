@@ -93,10 +93,6 @@
         font-size: medium;
     }
 
-    .products h2 {
-         font-size: x-large;
-    }
-
     .links {
         grid-template-columns: 1fr;
         gap: 1rem;

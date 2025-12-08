@@ -59,7 +59,7 @@ footer a {
     }
 
     .brands {
-        gap: 0.8rem;
+        gap: 1.5rem;
     }
 
     footer img {
@@ -70,5 +70,10 @@ footer a {
     footer a {
         padding-top: 1rem;
         font-size: 16px;
+    }
+
+    footer h2 {
+        font-size: x-large;
+        text-align: center;
     }
 }
