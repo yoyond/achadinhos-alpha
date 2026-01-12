@@ -129,12 +129,15 @@ a {
 
 
 @media (max-width: 480px) {
-    @media (max-width: 480px) {
   body {
     transform: none;
     width: 100%;
     height: auto;
   }
+
+
+html {
+height: 2200px;
 }
 
 .shape {
@@ -143,4 +146,5 @@ a {
     margin: 4rem auto;
     padding: 1.5rem;
   }
+
 }
