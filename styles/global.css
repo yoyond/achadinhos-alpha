@@ -134,7 +134,11 @@ a {
     width: 100%;
     height: auto;
     background-image: url(/assets/background-worldcup-mob.svg);
-  }
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
 
 
 html {
