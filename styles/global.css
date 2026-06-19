@@ -32,7 +32,7 @@ body {
 }
 
 body {
-    background-image: url(../assets/background.png);
+    background: linear-gradient(to right, green, yellow);
     background-size: contain;
     font-family: var(--font-family);
     color: var(--text-color);
@@ -133,6 +133,7 @@ a {
     transform: none;
     width: 100%;
     height: auto;
+    background-image: url(/assets/background-worldcup-mob.svg);
   }
 
 

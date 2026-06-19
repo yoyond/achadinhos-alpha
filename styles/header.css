@@ -6,8 +6,7 @@ border: #2e1202 solid 0.1rem;
 }
 
 .logo {
-    max-width: 19.7rem;
-    max-height: 19.7rem;
+    width: 400px;
     position: absolute;
     top: -8rem; 
     left: 3rem; 
