@@ -9,12 +9,12 @@
 
 .propaganda img {
     border-radius: 30px;
-    max-width: 50rem;
+    width: 50rem; 
     height: 20rem;
     box-shadow: 0 6px 20px rgba(152, 0, 182, 0.685);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
 
     .propaganda {
         margin-top: 2rem;

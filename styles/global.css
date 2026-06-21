@@ -75,7 +75,8 @@ a {
 
 .shape {
     background-color: #211816;
-    width: 935px;
+    width: 100%;
+    max-width: 935px;
     height: fit-content;
     border-radius: 4.3rem;
     padding: 3rem;
@@ -128,7 +129,7 @@ a {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   body {
     transform: none;
     width: 100%;
@@ -153,6 +154,93 @@ height: 2200px;
     max-width: 22rem;
     margin: 4rem auto;
     padding: 1.5rem;
+  }
+
+}
+
+@media (min-width: 540px) and (max-width: 600px) {
+
+  .shape {
+    max-width: 28rem;
+  }
+
+  .propaganda img {
+    width: 32rem;
+    height: 16rem;
+    border-radius: 15px;
+  }
+
+ .product-span {
+    height: auto;
+  }
+
+  .links {
+   width: fit-content;
+   height: fit-content;
+   margin-left: 3rem;
+
+  }
+  
+   .buttons {
+  
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .buttons a {
+    font-size: large;
+  }
+
+}
+
+
+@media (min-width: 712px) and (max-width: 800px) {
+
+  .shape {
+    max-width: 32rem;
+  }
+
+  .propaganda img {
+    width: 38rem;
+    height: 18rem;
+    border-radius: 20px;
+  }
+
+  .buttons {
+    width: 29rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-span {
+    height: auto;
+  }
+
+  .links {
+   width: fit-content;
+   height: fit-content;
+   margin-left: 5rem;
+
+  }
+
+
+  .buttons img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .buttons a {
+    font-size: large;
+    padding: 0.3rem;
   }
 
 }
